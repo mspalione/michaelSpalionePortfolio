@@ -1,0 +1,70 @@
+
+
+body {
+    background: silver;
+}
+
+.introSection {
+    padding:2em;
+}
+
+.heading {
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+.stainedGlass {
+    max-height: 300px;
+    display: none;
+    background: black;
+}
+
+.crucifixion {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+#articleLinks {
+    padding: 2em;
+}
+
+.nav-link {
+    color: grey;
+}
+
+a:hover { 
+    color: white;
+}
+
+.articles {
+    padding-top: 2em;
+}
+
+/*  Extra small devices  */
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .stainedGlass {
+        display: inline-flex;
+    }
+
+    .crucifixion {
+        display: none;
+    }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }

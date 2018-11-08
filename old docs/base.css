@@ -1,0 +1,60 @@
+/* base.css */
+
+body {
+    background: silver;
+}
+
+.michael {
+    border-radius: 50%;
+}
+
+
+.intro {
+position: absolute;
+top: 1em;
+right: 5em;
+}
+
+.introP {
+    position: absolute;
+    top: 4em;
+    right: 2em;
+    left: 2em;
+}
+
+.stainedGlass {
+    max-height: 300px;
+    display: none;
+    background: black;
+}
+
+.about,
+.headingText,
+.video {
+    padding: 2em;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .stainedGlass {
+        display: inline-flex;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+}

@@ -1,0 +1,179 @@
+/* home.css */
+
+body {
+    background: silver;
+}
+
+.nav-link {
+    color: grey;
+}
+
+a:hover { 
+    color: white;
+}
+
+.stainedGlass {
+    max-height: 300px;
+    display: none;
+    background: black;
+}
+
+.crucifixion {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.headingText {
+    padding: 2em;
+}
+
+.title {
+    padding: 2em;
+}
+
+.update {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.donate {
+    padding: 2em;
+}
+
+.paypal {
+    padding: 2em;
+}
+
+.donateImagesSm {
+    padding:2px;
+}
+
+.donateImagesMd {
+    display: none;
+}
+
+.carousel {
+    border-radius: 15px;;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: teal;
+  padding: 3em;
+  padding-bottom: 4em;
+  border-radius: 15px;
+ 
+}
+
+.watch {
+    text-align: center
+}
+
+/* Next & previous buttons */
+.prev, 
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "prev button" to the right */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+/* On hover, add a see-through black background color */
+.prev:hover, 
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.527);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 2em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4s;
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .crucifixion {
+        display: none;
+    }
+
+    .stainedGlass {
+        display: inline-flex;
+    }
+
+    .donateImagesSm {
+        display: none;
+    }
+
+    .donateImagesMd {
+    max-height: 300px;
+    display: inline-flex;
+    }
+
+    .text {
+        display: initial;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+}

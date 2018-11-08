@@ -1,0 +1,154 @@
+/* home.css */
+
+body {
+    background: silver;
+}
+
+.nav-link {
+    color: grey;
+}
+
+a:hover { 
+    color: white;
+}
+
+.nav-pills > li > a.active {
+    background-color: lightslategray!important;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: lightslategray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: lightslategray;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgba(0, 0, 0, 0.733);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.mainNav {
+    display: none;
+}
+
+.michael {
+    border-radius: 50%;
+    position: relative; 
+    width: 100%;
+    padding: 2em;
+}
+
+.aboutMd {
+    padding: 2em;
+}
+
+.intro {
+position: absolute;
+top: 1em;
+right: 15%;
+color: rgba(10, 10, 10, 0.582);
+}
+
+.introP {
+    position: absolute;
+    top: 4em;
+    right: 2em;
+    left: 2em;
+    color: rgb(63, 62, 62);
+}
+
+.stainedGlass {
+    max-height: 300px;
+    display: none;
+    background: black;
+}
+
+.about,
+.headingText{
+    padding: 2em;
+}
+
+.video {
+    padding: 2em;
+    background: teal;
+    max-width: 100%;
+    height: auto;
+}
+
+.box {
+  border: 3px solid;
+  color: teal;
+}
+
+.crucifixion {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .crucifixion {
+        display: none;
+    }
+
+    .stainedGlass {
+        display: inline-flex;
+    }
+
+    .mainNav {
+        display: initial;
+    }
+
+    .dropbtn {
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+}
