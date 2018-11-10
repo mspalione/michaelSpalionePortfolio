@@ -1,5 +1,3 @@
-// $( document ).ready(function() {
-
 
 // tabbable nav bar
 $('#myTab a').on('click', function (e) {
@@ -62,4 +60,3 @@ function showSlides(n) {
 }
 
 // /carousel
-// });
