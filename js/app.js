@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+// $( document ).ready(function() {
 
 
 // tabbable nav bar
@@ -62,4 +62,4 @@ function showSlides(n) {
 }
 
 // /carousel
-});
+// });

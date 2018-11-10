@@ -115,7 +115,8 @@ color: rgba(10, 10, 10, 0.582);
 
 /* popular contributions page css */
 
-#articleLinks {
+#articleLinks,
+#sermonLinks {
     padding: 2em;
 }
 
@@ -221,7 +222,7 @@ color: rgba(10, 10, 10, 0.582);
   display: none;
 }
 
-/* The dots/bullets/indicators */
+/* dot indicators */
 .dot {
     cursor: pointer;
     height: 15px;
@@ -239,11 +240,6 @@ color: rgba(10, 10, 10, 0.582);
 
     /* /support me page css */
 
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-
-}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
@@ -279,12 +275,10 @@ color: rgba(10, 10, 10, 0.582);
     }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-   
-}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-   
+   body: {
+       max-width: 1200px;
+   }
 }
