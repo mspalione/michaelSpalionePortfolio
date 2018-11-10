@@ -65,27 +65,6 @@ a:hover {
     display: none;
 }
 
-.michael {
-    border-radius: 50%;
-    position: relative; 
-    width: 100%;
-    padding: 2em;
-}
-
-.intro {
-position: absolute;
-top: 1em;
-right: 15%;
-color: rgba(10, 10, 10, 0.582);
-}
-
-.introP {
-    top: 4em;
-    right: 2em;
-    left: 2em;
-    color: rgb(63, 62, 62);
-}
-
 .stainedGlass {
     display: none;
 }
@@ -94,6 +73,26 @@ color: rgba(10, 10, 10, 0.582);
 .headingText,
 .heading {
     padding: 2em;
+}
+
+.crucifixion {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+/* home page css*/
+.michael {
+    border-radius: 20%;
+    position: relative; 
+    width: 100%;
+    padding: 2em;
+}
+
+.introP {
+    top: 4em;
+    right: 2em;
+    left: 2em;
+    color: rgb(63, 62, 62);
 }
 
 .video {
@@ -107,11 +106,9 @@ color: rgba(10, 10, 10, 0.582);
   border: 3px solid;
   color: teal;
 }
+/* /home */
 
-.crucifixion {
-    max-height: 300px;
-    overflow: hidden;
-}
+
 
 /* popular contributions page css */
 
@@ -136,7 +133,8 @@ color: rgba(10, 10, 10, 0.582);
     padding-right: 5%;
 }
 
-.donate {
+.donate,
+.donateImages {
     padding: 2em;
 }
 
