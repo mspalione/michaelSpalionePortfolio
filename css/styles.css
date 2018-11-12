@@ -139,6 +139,14 @@ a:hover {
     padding-right: 5%;
 }
 
+.update > p > a {
+    color: grey;
+}
+
+.update > p > a:hover { 
+    color: white;
+}
+
 .donate,
 .donateImages {
     padding: 2em;
