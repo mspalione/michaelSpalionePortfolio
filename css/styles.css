@@ -4,7 +4,13 @@ body {
     background: silver;
 }
 
-.nav-link {
+.contact {
+    background: darkgrey;
+    padding: 1em;
+}
+
+.nav-link,
+.contact > a {
     color: grey;
 }
 
@@ -155,7 +161,6 @@ a:hover {
     max-height: 700px;
 }
 
-
 * {box-sizing:border-box}
 
 
@@ -165,8 +170,7 @@ a:hover {
   position: relative;
   margin: auto;
   background-color: teal;
-  padding: 3em;
-  padding-bottom: 4em;
+  padding: 2em;
   border-radius: 15px;
 }
 
@@ -278,5 +282,6 @@ a:hover {
 @media (min-width: 1600px) { 
    body {
        max-width: 1600px;
+       margin: auto;
    }
 }
