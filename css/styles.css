@@ -22,6 +22,10 @@ a:hover {
     background-color: lightslategray!important;
 }
 
+.expertise {
+    font: Brush Script MT, Brush Script Std, cursive;
+}
+
 /* Dropdown Button */
 .dropbtn {
     background-color: lightslategray;
