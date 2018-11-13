@@ -22,8 +22,19 @@ a:hover {
     background-color: lightslategray!important;
 }
 
+.name {
+    font-family: 'Cinzel', serif;
+    font-size: 200%;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+    padding-bottom: 50px;
+}
+
 .expertise {
-    font: Brush Script MT, Brush Script Std, cursive;
+        font: 400 100px/0.8 'Great Vibes', Helvetica, sans-serif;
+        font-size: 250%;
+        color: #fff;
+        text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
 }
 
 /* Dropdown Button */
@@ -95,7 +106,7 @@ a:hover {
     border-radius: 20%;
     position: relative; 
     width: 100%;
-    padding: 2em;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .introP {
@@ -132,7 +143,7 @@ a:hover {
 }
 
 .introSection {
-    padding:2em;
+    padding-bottom: 2em;
 }
 
 /* /popular contributions page css */
