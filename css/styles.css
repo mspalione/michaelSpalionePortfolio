@@ -277,6 +277,7 @@ a:hover {
     }
 
     .mainNav {
+        display: inline;
         display: initial;
     }
 
