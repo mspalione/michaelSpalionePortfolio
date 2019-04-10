@@ -9,7 +9,7 @@ h3,
 h2 { color: whitesmoke;}
 
 .contact {
-    background: darkgrey;
+    background: gray;
     padding: 1em;
 }
 
@@ -17,7 +17,7 @@ h2 { color: whitesmoke;}
     color: black;
 }
 
-.nav-link > a {
+.nav-link {
     color: rgb(187, 186, 186);
 }
 
