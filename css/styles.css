@@ -1,17 +1,24 @@
 /* home.css */
 
 body {
-    background: silver;
+    background: black;
 }
 
+p,
+h3,
+h2 { color: whitesmoke;}
+
 .contact {
-    background: darkgrey;
+    background: gray;
     padding: 1em;
 }
 
-.nav-link,
 .contact > a {
-    color: grey;
+    color: black;
+}
+
+.nav-link {
+    color: rgb(187, 186, 186);
 }
 
 a:hover { 
@@ -25,14 +32,14 @@ a:hover {
 .name {
     font-family: 'Cinzel', serif;
     font-size: 100%;
-    color: black;
+    color: whitesmoke;
     padding-bottom: 50px;
 }
 
 .expertise {
         font: 400 100px/0.8 'Great Vibes', Helvetica, sans-serif;
         font-size: 150%;
-        color: black;
+        color: whitesmoke;
 }
 
 /* Dropdown Button */
@@ -84,19 +91,10 @@ a:hover {
     display: none;
 }
 
-.stainedGlass {
-    display: none;
-}
-
 .about,
 .headingText,
 .heading {
     padding: 2em;
-}
-
-.crucifixion {
-    max-height: 300px;
-    overflow: hidden;
 }
 
 /* home page css*/
@@ -111,22 +109,21 @@ a:hover {
     top: 4em;
     right: 2em;
     left: 2em;
-    color: rgb(63, 62, 62);
+    color: whitesmoke;
 }
 
 .video {
     padding: 2em;
-    background: teal;
+    background: gray;
     max-width: 100%;
     height: auto;
 }
 
 .box {
   border: 3px solid;
-  color: teal;
+  color: gray;
 }
 /* /home */
-
 
 
 /* popular contributions page css */
@@ -153,7 +150,7 @@ a:hover {
 }
 
 .update > p > a {
-    color: grey;
+    color: rgb(199, 197, 197);
 }
 
 .update > p > a:hover { 
@@ -184,13 +181,12 @@ a:hover {
 
 * {box-sizing:border-box}
 
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  background-color: teal;
+  background-color: gray;
   padding: 2em;
   border-radius: 15px;
 }
@@ -263,19 +259,8 @@ a:hover {
 
     /* /support me page css */
 
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .crucifixion {
-        display: none;
-    }
-
-    .stainedGlass {
-        display: inline-flex;
-        background: black;
-        max-height: 300px;
-    }
-
     .mainNav {
         display: inline;
         display: initial;
@@ -290,8 +275,12 @@ a:hover {
     }
 
     .donateImagesMd {
-    max-height: 300px;
-    display: inline-flex;
+        max-height: auto;
+        display: inline-flex;
+    }
+
+    .donatePics {
+        max-height: 300px;
     }
 
     .name {
@@ -306,7 +295,6 @@ a:hover {
         display: initial;
     }
 }
-
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1600px) { 
