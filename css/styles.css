@@ -99,10 +99,8 @@ a:hover {
 
 /* home page css*/
 .michael {
-    border-radius: 20%;
     position: relative; 
     width: 100%;
-    box-shadow: 10px 10px 5px grey;
 }
 
 .introP {
